@@ -73,8 +73,8 @@ enum Variant {
     VARIANT_2    = 8,  // CryptoNight variant 2
     VARIANT_HALF = 9,  // CryptoNight variant 2 with half iterations (Masari/Stellite)
     VARIANT_TRTL = 10, // CryptoNight Turtle (TRTL)
-    VARIANT_GPU  = 11, // CryptoNight-GPU (Ryo)
-    VARIANT_CONC = 12, // CryptoNight-Conceal
+    VARIANT_CONC = 11, // CryptoNight-Conceal
+    VARIANT_GPU  = 12, // CryptoNight-GPU (Ryo)    
     VARIANT_MAX
 };
 
