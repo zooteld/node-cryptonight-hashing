@@ -61,21 +61,22 @@ enum AlgoVariant {
 
 
 enum Variant {
-    VARIANT_AUTO = -1, // Autodetect
-    VARIANT_0    = 0,  // Original CryptoNight or CryptoNight-Heavy
-    VARIANT_1    = 1,  // CryptoNight variant 1 also known as Monero7 and CryptoNightV7
-    VARIANT_TUBE = 2,  // Modified CryptoNight-Heavy (TUBE only)
-    VARIANT_XTL  = 3,  // Modified CryptoNight variant 1 (Stellite only)
-    VARIANT_MSR  = 4,  // Modified CryptoNight variant 1 (Masari only)
-    VARIANT_XHV  = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
-    VARIANT_XAO  = 6,  // Modified CryptoNight variant 0 (Alloy only)
-    VARIANT_RTO  = 7,  // Modified CryptoNight variant 1 (Arto only)
-    VARIANT_2    = 8,  // CryptoNight variant 2
-    VARIANT_HALF = 9,  // CryptoNight variant 2 with half iterations (Masari/Stellite)
-    VARIANT_TRTL = 10, // CryptoNight Turtle (TRTL)
-    VARIANT_CONC = 11, // CryptoNight-Conceal
-    VARIANT_GPU  = 12, // CryptoNight-GPU (Ryo)    
-    VARIANT_MAX
+    VARIANT_AUTO  = -1, // Autodetect
+    VARIANT_0     = 0,  // Original CryptoNight or CryptoNight-Heavy
+    VARIANT_heavy = 0,  // CryptoNight-Heavy (Ombre)
+    VARIANT_1     = 1,  // CryptoNight variant 1 also known as Monero7 and CryptoNightV7
+    VARIANT_TUBE  = 2,  // Modified CryptoNight-Heavy (TUBE only)
+    VARIANT_XTL   = 3,  // Modified CryptoNight variant 1 (Stellite only)
+    VARIANT_MSR   = 4,  // Modified CryptoNight variant 1 (Masari only)
+    VARIANT_XHV   = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
+    VARIANT_XAO   = 6,  // Modified CryptoNight variant 0 (Alloy only)
+    VARIANT_RTO   = 7,  // Modified CryptoNight variant 1 (Arto only)
+    VARIANT_2     = 8,  // CryptoNight variant 2
+    VARIANT_HALF  = 9,  // CryptoNight variant 2 with half iterations (Masari/Stellite)
+    VARIANT_TRTL  = 10, // CryptoNight Turtle (TRTL)
+    VARIANT_CONC  = 11, // CryptoNight-Conceal
+    VARIANT_GPU   = 12, // CryptoNight-GPU (Ryo)
+    VARIANT_GPU   = 12, // CryptoNight-GPU (Ryo)
 };
 
 
